@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="45dip">
+	<Button
+		android:id = "@+id/ussdservice"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		android:text="Service"
+		android:textSize="18dip"
+		android:textColor="#fefefe"
+		android:gravity = "center"
+		android:background="@drawable/item_forward">
+	</Button>
+	<ImageView
+		android:src="@drawable/sombra_seta"
+		android:layout_width = "wrap_content"
+		android:layout_height = "wrap_content"
+		android:layout_marginTop = "40dip"/>
+</RelativeLayout>

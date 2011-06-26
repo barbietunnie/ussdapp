@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background = "#989898">
+	
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop = "25dip"
+    	android:background="@drawable/item_back_normal">
+		<EditText
+			android:id="@+id/entry"
+			android:layout_height="38dip"
+			android:layout_width="235dip" 
+        	android:hint="Digite o número"
+			android:gravity = "center"
+			android:numeric="decimal"
+        	android:background="@android:drawable/editbox_background"/>
+		<Button
+        	android:id="@+id/addcontact"
+			android:layout_height="40dip"
+			android:layout_width="41dip"
+			android:layout_alignParentRight = "true"
+			android:layout_marginRight = "41dip"
+        	android:background="@drawable/add_button"/>
+     	<Button
+        	android:id="@+id/docontact"
+			android:layout_height="40dip"
+			android:layout_width="41dip"
+			android:layout_alignParentRight = "true"
+        	android:background="@drawable/do_button"/>
+	</RelativeLayout>
+
+
+</RelativeLayout>

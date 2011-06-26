@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="ussdconsulta">
+	<item>
+		{\"title\":\"Saldo\",
+		\"description\":\"Consultar Saldo. 3G necessita de estar desligado.\",
+		\"command\":\"*#100#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Validade do cartão\",
+		\"description\":\"Consultar validade do cartão.\",
+		\"command\":\"*#101#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Ùltima chamada\",
+		\"description\":\"Consultar detalhes da última chamada ou navegação Wap GSM.\",
+		\"command\":\"*#102#\"
+		}
+	</item>
+</array>
+<array name="ussdtoking">
+	<item>
+		{\"title\":\"Enviar toking\",
+		\"description\":\"Envio de Tokings.\",
+		\"command\":\"*#112*9xxxxxxxx#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Activar/Bloquear recepção\",
+		\"description\":\"Activar / Bloquear recepção de tokings.\",
+		\"command\":\"*#112*02#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Activar/Bloquear envio\",
+		\"description\":\"Activar / Bloquear envio de tokings para outras redes. Gratuito para números Vodafone.\",
+		\"command\":\"*#112*04#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Tokings disponíveis\",
+		\"description\":\"Consultar número de tokings disponíveis para enviar.\",
+		\"command\":\"*#112*03#\"
+		}
+	</item>
+</array>
+<array name="ussdsostransfer">
+	<item>
+		{\"title\":\"Fazer pedido\",
+		\"description\":\"Pedido para uma transferência de saldo.\",
+		\"command\":\"##128*9xxxxxxxx#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Activar/Bloquear pedidos\",
+		\"description\":\"Activar / Bloquear recepção de pedidos de transferência de saldo.\",
+		\"command\":\"##128*01#\"
+		}
+	</item>
+</array>
+<array name="ussdsospagas">
+	<item>
+		{\"title\":\"Barrar número\",
+		\"description\":\"Impedir que número faça pedido a pagar no destino.\",
+		\"command\":\"*#122*02*9xxxxxxxx#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Retirar número barrado\",
+		\"description\":\"Retirar número da lista de barrados, relativamente a pedidos de chamadas a pagar no destino.\",
+		\"command\":\"*#122*01*9xxxxxxxx#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Activar recepção\",
+		\"description\":\"Activar recepção de chamadas a pagar no destino.\",
+		\"command\":\"*#122*01#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Bloquear recepção\",
+		\"description\":\"Bloquear recepção de chamadas a pagar no destino.\",
+		\"command\":\"*#122*02#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Consultar barrados\",
+		\"description\":\"Consultar números barrados, relativamente a pedidos de chamadas a pagar no destino.\",
+		\"command\":\"*#122*03#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Limpar barrados\",
+		\"description\":\"Limpar lista de números barrados, relativamente a chamadas a pagar no destino.\",
+		\"command\":\"*#122*08#\"
+		}
+	</item>
+</array>
+<array name="ussdhowareyou">
+	<item>
+		{\"title\":\"Envio de saudação\",
+		\"description\":\"Enviar saudação "How Are You" a um cliente Vodafone.\",
+		\"command\":\"*#111*9xxxxxxxx#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Activar/Bloquear\",
+		\"description\":\"Activar / Bloquear recepção de saudação "How Are You".\",
+		\"command\":\"*#111*02#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Disponíveis\",
+		\"description\":\"Consultar número de saudações How Are You disponíveis para enviar.\",
+		\"command\":\"*#111*03#\"
+		}
+	</item>
+</array>
+<array name="ussdaditivo">
+	<item>
+		{\"title\":\"SMS outras redes\",
+		\"description\":\"Consultar aditivos SMS para todas as redes.\",
+		\"command\":\"*#127*01#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"SMS Vodafone\",
+		\"description\":\"Consultar aditivos SMS para a rede Vodafone.\",
+		\"command\":\"*#127*02#\"
+		}
+	</item>
+</array>
+</resources>
