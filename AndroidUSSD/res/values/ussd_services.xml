@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ussd_array">
+        <item>Extravaganza/Extreme?</item>
+        <item>Consultas</item>
+        <item>Toking</item>
+        <item>SOSTransfer</item>
+        <item>SOSPagas</item>       
+        <item>How are you?</item>
+		<item>Aditivo</item>
+    </string-array>
+</resources>
